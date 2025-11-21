@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+/* Variables de couleurs (à personnaliser selon l’identité visuelle) */
+:root {
+  --couleur-primaire: #004225; /* vert foncé par défaut */
+  --couleur-secondaire: rgb(184, 134, 11); /* gris clair */
+  --couleur-accent: #d4af37; /* doré pour les boutons */
+  --texte-fonce: #222;
+  --texte-clair: #fdfdfd;
+}
+
+a.active {
+  color: var(--couleur-secondaire);
+}
+
+header {
+  border-bottom: 2px solid var(--couleur-secondaire);
+}
+nav a:hover {
+  color: var(--couleur-secondaire);
+}
+
+/* #frameHeader {
+  width: 100%;
+} */
+
+header img {
+  height: 80px;
+  width: 150px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+}
+
+main a {
+  background-color: var(--couleur-secondaire);
+}
+
+/* 页脚 */
+.footer {
+  border-top: 2px solid var(--couleur-secondaire);
+  color: var(--texte-clair);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2rem 1rem;
+  /* background-color: rgb(0, 0, 0); */
+}
+
+.footer-col {
+  margin-bottom: 1rem;
+}
+
+.footer-col h3 {
+  margin-bottom: 0.5rem;
+  color: var(--couleur-accent);
+}
+
+.footer-col ul {
+  list-style-type: none;
+}
+
+.footer-col ul li {
+  margin-bottom: 0.4rem;
+}
+
+.footer-col a {
+  color: var(--texte-clair);
+  text-decoration: none;
+}
+
+.footer-col a:hover {
+  text-decoration: underline;
+}
+
+.iut-logo {
+  width: 80px;
+  height: auto;
+}

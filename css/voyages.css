@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+@import url("global.css");
+
+/* 主内容区域 */
+.main-content {
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+.main-content h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Voyage cards */
+.voyage-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.voyage-card {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.voyage-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.voyage-info {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.voyage-info h2 {
+  margin-bottom: 0.5rem;
+  color: var(--couleur-primaire);
+}
+
+.voyage-info p {
+  margin-bottom: 0.5rem;
+}
+
+.profil-cible {
+  margin: 0.5rem 0;
+  padding-left: 1.2rem;
+}
+
+.profil-cible li {
+  list-style-type: square;
+  margin-bottom: 0.3rem;
+}
+
+.voyage-meta {
+  margin-top: auto;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  margin-top: 1rem;
+  padding: 0.6rem 1rem;
+  background-color: var(--couleur-accent);
+  color: var(--texte-fonce);
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+  background-color: var(--couleur-primaire);
+  color: var(--texte-clair);
+}
+

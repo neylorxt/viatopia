@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Viatopia</title>
+  </head>
+  <body class="bg-slate-950">
+    <header class="text-white p-4 flex flex-col justify-between items-center">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <img src="images/viatopia-logo.png" alt="Viatopia Logo" />
+      </div>
+
+      <nav class="mt-4 p-2 rounded-lg w-full">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <ul class="flex space-x-7 flex justify-center text-lg">
+            <li>
+              <a href="index.html" class="p-2 rounded-lg active">Accueil</a>
+            </li>
+            <li>
+              <a href="voyages.html" class="p-2 rounded-lg">Voyages </a>
+            </li>
+            <li>
+              <a href="reservation.html" class="p-2 rounded-lg"
+                >Réservations
+              </a>
+            </li>
+            <li>
+              <a href="about.html" class="p-2 rounded-lg">À propos</a>
+            </li>
+            <li>
+              <a href="contact.html" class="p-2 rounded-lg">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="bg-gray-900 px-5">
+      <section>
+        <aside class="text-gray-600 min-h-screen flex items-center">
+          <div
+            class="container mx-auto flex md:px-24 md:py-10 md:flex-row flex-col items-center"
+          >
+            <div
+              class="lg:flex-grow mt-5 md:mt-0 md:w-1.5/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
+            >
+              <h1
+                class="text-2xl font-extrabold leading-9 tracking-tight mb-3 text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-normal"
+              >
+                Explorez le monde avec Viatopia
+              </h1>
+              <p
+                class="mb-8 md:pl-0 pl-2 pr-2 leading-relaxed dark:text-gray-300"
+              >
+                Découvrez des destinations incroyables avec Viatopia. Nous
+                proposons des voyages sur mesure pour tous les goûts et budgets.
+              </p>
+              <div class="flex justify-center">
+                <a
+                  href="voyages.html"
+                  class="inline-flex text-white border-0 py-2 px-6 focus:outline-none hover:bg-emerald-600 rounded text-lg"
+                  >Voir les offres
+                </a>
+                <a
+                  href="contact.html"
+                  class="ml-4 inline-flex text-white border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg"
+                  >Nous contacter</a
+                >
+              </div>
+            </div>
+            <div class="lg:max-w-lg lg:w-full mb-5 md:mb-0 md:w-1/2 w-3/6">
+              <img
+                class="object-cover object-center rounded"
+                alt="hero"
+                src="images/bg-hot-ballon.png"
+              />
+            </div>
+          </div>
+        </aside>
+
+        <article class="py-10">
+          <div class="max-w-6xl mx-auto space-y-8">
+            <!-- Student Offer -->
+            <div
+              class="h-100 flex flex-col md:flex-row bg-gray-800 border border-gray-700 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300"
+            >
+              <img
+                src="https://wallpaperaccess.com/full/4521355.jpg"
+                alt="Student travel"
+                class="w-full md:w-1/2 h-64 md:h-auto object-cover"
+              />
+
+              <div
+                class="w-full md:w-1/2 p-6 md:p-8 flex flex-col justify-center"
+              >
+                <h2 class="text-2xl md:text-3xl font-bold mb-4 text-white">
+                  Étudiant ? Profitez de nos offres spéciales !
+                </h2>
+                <p class="mb-6 text-gray-300 leading-relaxed">
+                  Bénéficiez de réductions exclusives sur nos voyages en tant
+                  qu'étudiant. Explorez le monde tout en respectant votre budget
+                  grâce à nos offres adaptées.
+                </p>
+                <div>
+                  <a
+                    href="voyages.html"
+                    class="inline-block text-white bg-emerald-600 border-0 py-3 px-8 hover:bg-emerald-700 rounded-lg text-lg font-semibold transition-colors duration-300"
+                    >Voir les offres étudiantes
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Business Offer -->
+            <div
+              class="h-100 flex flex-col md:flex-row-reverse bg-gray-800 border border-gray-700 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300"
+            >
+              <img
+                src="https://www.myluxurytravel.fr/wp-content/uploads/2021/10/Voyage-daffaire-1024x683.jpeg"
+                alt="Business travel"
+                class="w-full md:w-1/2 h-64 md:h-auto object-cover"
+              />
+
+              <div
+                class="w-full md:w-1/2 p-6 md:p-8 flex flex-col justify-center"
+              >
+                <h2 class="text-2xl md:text-3xl font-bold mb-4 text-white">
+                  Voyages d'affaires sur mesure
+                </h2>
+                <p class="mb-6 text-gray-300 leading-relaxed">
+                  Profitez de nos offres spéciales pour les voyages d'affaires
+                  et les excursions de groupe. Nous offrons des tarifs
+                  compétitifs et des services personnalisés pour répondre aux
+                  besoins de votre entreprise.
+                </p>
+                <div>
+                  <a
+                    href="voyages.html"
+                    class="inline-block text-white bg-emerald-600 border-0 py-3 px-8 hover:bg-emerald-700 rounded-lg text-lg font-semibold transition-colors duration-300"
+                    >Contactez notre équipe commerciale
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Family Offer -->
+            <div
+              class="h-100 flex flex-col md:flex-row bg-gray-800 border border-gray-700 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300"
+            >
+              <img
+                src="https://static.vecteezy.com/system/resources/previews/030/696/847/large_2x/family-high-quality-4k-hdr-free-photo.jpg"
+                alt="Family travel"
+                class="w-full md:w-1/2 h-64 md:h-auto object-cover"
+              />
+
+              <div
+                class="w-full md:w-1/2 p-6 md:p-8 flex flex-col justify-center"
+              >
+                <h2 class="text-2xl md:text-3xl font-bold mb-4 text-white">
+                  Voyages en famille inoubliables
+                </h2>
+                <p class="mb-6 text-gray-300 leading-relaxed">
+                  Profitez de nos offres spéciales pour les voyages en famille
+                  et les excursions de groupe. Nous offrons des tarifs
+                  compétitifs et des services personnalisés pour répondre aux
+                  besoins de votre famille.
+                </p>
+                <div>
+                  <a
+                    href="voyages.html"
+                    class="inline-block text-white bg-emerald-600 border-0 py-3 px-8 hover:bg-emerald-700 rounded-lg text-lg font-semibold transition-colors duration-300"
+                    >Découvrez nos offres familiales
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="py-10">
+          <h2 class="text-2xl font-bold mb-4 text-center text-white font-serif">
+            Top 3 des destinations populaires
+          </h2>
+
+          <div class="flex flex-wrap justify-center mb-10 gap-4">
+            <div
+              class="max-w-xs border rounded-lg shadow-sm border-gray-700 border-blue-400"
+            >
+              <img
+                class="rounded-t-lg pb-2"
+                src="https://www.tripsavvy.com/thmb/LtWVv7kP9LOdT0jHPs29TdiCXx8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/italy--campania--capri-1139013130-633f21d1f45143dab30f19dc4f13b9cc.jpg"
+                alt="Capri"
+              />
+              <div class="px-5 pb-5">
+                <a href="#">
+                  <h5
+                    class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white"
+                  >
+                    Capri la destination de rêve
+                  </h5>
+                </a>
+                <p class="mb-5 mt-2 text-gray-400 font-semibold">
+                  Capri a charmé la royauté, les artistes et les célébrités avec
+                  ses plages magnifiques, ses nombreux jardins et ses
+                  restaurants. Située dans la baie de Naples, Capri est une
+                  destination toute l’année qui regorge de touristes chaque été.
+                </p>
+
+                <div class="flex items-center mt-2.5 mb-5">
+                  <div class="flex items-center space-x-1 rtl:space-x-reverse">
+                    <svg
+                      class="w-4 h-4 text-yellow-300"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 22 20"
+                    >
+                      <path
+                        d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                      />
+                    </svg>
+                    <svg
+                      class="w-4 h-4 text-yellow-300"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 22 20"
+                    >
+                      <path
+                        d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                      />
+                    </svg>
+                    <svg
+                      class="w-4 h-4 text-yellow-300"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 22 20"
+                    >
+                      <path
+                        d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                      />
+                    </svg>
+                    <svg
+                      class="w-4 h-4 text-yellow-300"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 22 20"
+                    >
+                      <path
+                        d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                      />
+                    </svg>
+                    <svg
+                      class="w-4 h-4 text-gray-200 dark:text-gray-600"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 22 20"
+                    >
+                      <path
+                        d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                      />
+                    </svg>
+                  </div>
+                  <span
+                    class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded-sm dark:bg-blue-200 dark:text-blue-800 ms-3"
+                    >4.7</span
+                  >
+                </div>
+                <span
+                  class="text-white font-bold bg-emerald-800 px-2 py-1 rounded"
+                >
+                  Italy
+                </span>
+              </div>
+            </div>
+
+            <div
+              class="max-w-xs border rounded-lg shadow-sm border-gray-700 border-blue-400"
+            >
+              <img
+                class="rounded-t-lg pb-2"
+                src="https://www.equinoxmagazine.fr/wp-content/uploads/2020/08/32683204323_a7dcf3243d_o.jpg"
+                alt="Capri"
+              />
+              <div class="px-5 pb-5">
+                <a href="#">
+                  <h5
+                    class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white"
+                  >
+                    Barcelone, la ville aux multiples facettes
+                  </h5>
+                </a>
+                <p class="mb-5 mt-2 text-gray-400 font-semibold">
+                  Barcelone est une destination prisée des voyageurs du monde
+                  entier. Avec son architecture unique, ses plages animées et sa
+                  riche histoire culturelle, Barcelone offre une expérience
+                  inoubliable à chaque coin de rue.
+                </p>
+
+                <div class="flex items-center mt-2.5 mb-5">
+                  <div class="flex items-center space-x-1 rtl:space-x-reverse">
+                    <svg
+                      class="w-4 h-4 text-yellow-300"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 22 20"
+                    >
+                      <path
+                        d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                      />
+                    </svg>
+                    <svg
+                      class="w-4 h-4 text-yellow-300"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 22 20"
+                    >
+                      <path
+                        d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                      />
+                    </svg>
+                    <svg
+                      class="w-4 h-4 text-yellow-300"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 22 20"
+                    >
+                      <path
+                        d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                      />
+                    </svg>
+                    <svg
+                      class="w-4 h-4 text-yellow-300"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 22 20"
+                    >
+                      <path
+                        d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                      />
+                    </svg>
+                    <svg
+                      class="w-4 h-4 text-gray-200 dark:text-gray-600"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 22 20"
+                    >
+                      <path
+                        d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                      />
+                    </svg>
+                  </div>
+                  <span
+                    class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded-sm dark:bg-blue-200 dark:text-blue-800 ms-3"
+                    >4.7</span
+                  >
+                </div>
+                <span
+                  class="text-white font-bold bg-emerald-800 px-2 py-1 rounded"
+                >
+                  Espagne
+                </span>
+              </div>
+            </div>
+
+            <div
+              class="max-w-xs border rounded-lg shadow-sm border-gray-700 border-blue-400"
+            >
+              <img
+                class="rounded-t-lg pb-2"
+                src="https://wallpaperaccess.com/full/1721400.jpg"
+                alt="Capri"
+              />
+              <div class="px-5 pb-5">
+                <a href="#">
+                  <h5
+                    class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white"
+                  >
+                    Paris, la ville de l'amour
+                  </h5>
+                </a>
+                <p class="mb-5 mt-2 text-gray-400 font-semibold">
+                  Paris, la capitale de la France, est célèbre pour son art, sa
+                  culture et sa cuisine. Des monuments emblématiques comme la
+                  Tour Eiffel et le Louvre aux charmants cafés et boutiques de
+                  rue, Paris offre une expérience inoubliable à chaque visiteur.
+                </p>
+
+                <div class="flex items-center mt-2.5 mb-5">
+                  <div class="flex items-center space-x-1 rtl:space-x-reverse">
+                    <svg
+                      class="w-4 h-4 text-yellow-300"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 22 20"
+                    >
+                      <path
+                        d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                      />
+                    </svg>
+                    <svg
+                      class="w-4 h-4 text-yellow-300"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 22 20"
+                    >
+                      <path
+                        d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                      />
+                    </svg>
+                    <svg
+                      class="w-4 h-4 text-yellow-300"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 22 20"
+                    >
+                      <path
+                        d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                      />
+                    </svg>
+                    <svg
+                      class="w-4 h-4 text-yellow-300"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 22 20"
+                    >
+                      <path
+                        d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                      />
+                    </svg>
+                    <svg
+                      class="w-4 h-4 text-gray-200 dark:text-gray-600"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 22 20"
+                    >
+                      <path
+                        d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                      />
+                    </svg>
+                  </div>
+                  <span
+                    class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded-sm dark:bg-blue-200 dark:text-blue-800 ms-3"
+                    >4.8</span
+                  >
+                </div>
+                <span
+                  class="text-white font-bold bg-emerald-800 px-2 py-1 rounded"
+                >
+                  France
+                </span>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section>
+        <div class="max-w-screen-lg mx-auto">
+          <div class="mb-10 rounded overflow-hidden flex flex-col mx-auto">
+            <p class="text-xl text-gray-300 sm:text-4xl font-semibold mb-2">
+              Votre confort est notre priorité
+            </p>
+
+            <div class="relative">
+              <img
+                class="w-full"
+                src="https://wallpaperaccess.com/full/185289.jpg"
+                alt="Sunset in the mountains"
+              />
+
+              <a
+                href="voyages.html"
+                class="hidden absolute z-10 text-xs absolute bottom-0 right-0 bg-indigo-600 px-6 m-2 py-2 text-white hover:bg-white hover:text-indigo-600 transition duration-500 ease-in-out sm:flex items-center"
+                ><span class="text-lg">|</span>&nbsp;&nbsp;<span
+                  >Voir nos offres</span
+                ></a
+              >
+            </div>
+            <p class="text-gray-300 py-5 text-base leading-8">
+              Nous nous engageons à offrir à nos clients une expérience de
+              voyage inégalée, en mettant l'accent sur le confort et la
+              satisfaction. Nos services personnalisés et notre attention aux
+              détails garantissent que chaque voyage avec Viatopia est mémorable
+              et agréable.
+            </p>
+            <div class="py-5 text-sm font-regular text-gray-900 flex">
+              <span class="mr-3 flex flex-row items-center">
+                <svg
+                  class="text-gray-300"
+                  fill="currentColor"
+                  height="13px"
+                  width="13px"
+                  version="1.1"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 512 512"
+                  xml:space="preserve"
+                >
+                  <g>
+                    <g>
+                      <path
+                        d="M256,0C114.837,0,0,114.837,0,256s114.837,256,256,256s256-114.837,256-256S397.163,0,256,0z M277.333,256
+			c0,11.797-9.536,21.333-21.333,21.333h-85.333c-11.797,0-21.333-9.536-21.333-21.333s9.536-21.333,21.333-21.333h64v-128
+			c0-11.797,9.536-21.333,21.333-21.333s21.333,9.536,21.333,21.333V256z"
+                      ></path>
+                    </g>
+                  </g>
+                </svg>
+                <span class="ml-1 text-gray-300">6 mins ago</span></span
+              >
+            </div>
+            <hr />
+          </div>
+        </div>
+      </section>
+
+      <!-- Avis Section -->
+      <section class="mt-5 avis">
+        <h2 class="text-2xl font-bold text-center text-gray-200">
+          Avis de nos clients
+        </h2>
+        <div
+          class="flex items-center justify-center flex-wrap flex-col sm:flex-row gap-4 p-4"
+        >
+          <a
+            href="#"
+            class="group relative block bg-black rounded-lg overflow-hidden max-w-sm"
+          >
+            <img
+              alt="A beautiful landscape"
+              src="https://wallpaperaccess.com/full/878615.jpg"
+              class="absolute inset-0 h-full w-full rounded-lg object-cover opacity-75 transition-opacity group-hover:opacity-50"
+            />
+
+            <div class="relative p-4 sm:p-6 lg:p-8">
+              <p
+                class="text-sm font-medium tracking-widest text-pink-500 uppercase"
+              >
+                Etudiant
+              </p>
+
+              <p class="text-xl font-bold text-white sm:text-2xl">
+                Mickael Scofild
+              </p>
+
+              <div class="mt-32 sm:mt-48 lg:mt-64">
+                <div
+                  class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
+                >
+                  <p class="text-sm text-white">
+                    Le voyage avec Viatopia a été une expérience inoubliable. Le
+                    personnel était incroyablement attentionné et les
+                    destinations soigneusement sélectionnées. Je recommande
+                    vivement Viatopia à tous ceux qui cherchent à vivre des
+                    aventures mémorables.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a
+            href="#"
+            class="group relative block bg-black rounded-lg overflow-hidden max-w-sm"
+          >
+            <img
+              alt=""
+              src="https://wallpapers.com/images/hd/business-preparations-vpfhzq7lkzrwlu8f.jpg"
+              class="absolute inset-0 h-full w-full rounded-lg object-cover opacity-75 transition-opacity group-hover:opacity-50"
+            />
+
+            <div class="relative p-4 sm:p-6 lg:p-8">
+              <p
+                class="text-sm font-medium tracking-widest text-pink-500 uppercase"
+              >
+                Entreprise
+              </p>
+
+              <p class="text-xl font-bold text-white sm:text-2xl">Tony Wayne</p>
+
+              <div class="mt-32 sm:mt-48 lg:mt-64">
+                <div
+                  class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
+                >
+                  <p class="text-sm text-white">
+                    Viatopia a surpassé nos attentes en matière d'organisation
+                    de voyages d'affaires. Leur professionnalisme et leur souci
+                    du détail ont rendu notre voyage fluide et agréable. Nous
+                    continuerons à faire appel à leurs services pour nos futurs
+                    déplacements.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a
+            href="#"
+            class="group relative block bg-black rounded-lg overflow-hidden max-w-sm"
+          >
+            <img
+              alt=""
+              src="https://wallpaperaccess.com/full/8099960.jpg"
+              class="absolute inset-0 h-full w-full rounded-lg object-cover opacity-75 transition-opacity group-hover:opacity-50"
+            />
+
+            <div class="relative p-4 sm:p-6 lg:p-8">
+              <p
+                class="text-sm font-medium tracking-widest text-pink-500 uppercase"
+              >
+                Famille
+              </p>
+
+              <p class="text-xl font-bold text-white sm:text-2xl">
+                Mike Johnson
+              </p>
+
+              <div class="mt-32 sm:mt-48 lg:mt-64">
+                <div
+                  class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
+                >
+                  <p class="text-sm text-white">
+                    Voyager avec ma famille grâce à Viatopia a été une
+                    expérience merveilleuse. Ils ont pris en compte les besoins
+                    de chacun, rendant le voyage agréable pour tous les âges.
+                    Les souvenirs que nous avons créés ensemble sont
+                    inestimables et resteront gravés dans nos mémoires. Merci
+                    Viatopia !
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer bg-gray-900 text-gray-300">
+      <div class="footer-col">
+        <h2>Membres du projet</h2>
+        <p>Lamis Chaouch</p>
+        <p>Erien Charmely</p>
+        <p>Tianyi Hua</p>
+      </div>
+      <div class="footer-col">
+        <h3>Documentation</h3>
+        <ul>
+          <li><a href="rapport.docx">Rapport (docx)</a></li>
+          <li><a href="rapport.pdf">Rapport (PDF)</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>IUT</h3>
+        <a href="https://www.iut-orsay.universite-paris-saclay.fr/"
+          ><img src="images/iut.jpg" alt="logo du iut"
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>
