@@ -1,203 +1,183 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/voyages.css" />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <title>Viatopia - Voyages</title>
-  </head>
-  <body class="bg-slate-950">
-    <header
-      class="text-white p-4 flex flex-col justify-between items-center border-b-2 border-green-800"
-    >
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/voyages.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <title>Viatopia - Voyages</title>
+</head>
+
+<body class="bg-slate-950">
+  <header class="text-white p-4 flex flex-col justify-between items-center border-b-2 border-green-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <a href="index.html">
         <img src="images/viatopia-logo.png" alt="Viatopia Logo" />
-      </div>
+      </a>
+    </div>
 
-      <nav class="mt-4 p-2 rounded-lg w-full">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <ul class="flex space-x-7 flex justify-center text-lg">
-            <li>
-              <a href="index.html" class="hover:text-green-700 p-2 rounded-lg"
-                >Accueil</a
-              >
-            </li>
-            <li>
-              <a
-                href="voyages.html"
-                class="hover:text-green-700 p-2 rounded-lg active"
-                >Voyages
-              </a>
-            </li>
-            <li>
-              <a
-                href="reservation.html"
-                class="hover:text-green-700 p-2 rounded-lg"
-                >Réservations
-              </a>
-            </li>
-            <li>
-              <a href="about.html" class="hover:text-green-700 p-2 rounded-lg"
-                >À propos</a
-              >
-            </li>
-            <li>
-              <a href="contact.html" class="hover:text-green-700 p-2 rounded-lg"
-                >Contact</a
-              >
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-
-    <main class="main-content bg-gray-900">
-      <h1 class="text-gray-300 font-bold text-2xl">
-        Nos Destinations Populaires
-      </h1>
-      <section class="voyage-list">
-        <article class="voyage-card">
-          <img
-            src="images/vue de paris.jpg"
-            alt="Vue de Paris"
-            class="voyage-image"
-          />
-          <div class="voyage-info bg-gray-100">
-            <h2>Paris, France</h2>
-            <p>
-              Découvrez la Ville Lumière, avec ses monuments emblématiques comme
-              la Tour Eiffel, le Louvre et les charmants cafés des rues pavées.
-            </p>
-            <ul class="profil-cible">
-              <li>Pour les passionnés d’art et d’histoire</li>
-              <li>Idéal pour une escapade romantique</li>
-              <li>Parfait pour les gourmets et amateurs de vin</li>
-            </ul>
-            <h2>profil-cible</h2>
-            <p>famille/amis:Activités culturelles pour petits et grands</p>
-            <p>
-              entreprise/scolaire:Gagnez du temps : au lieu de mobiliser vos
-              ressources internes sur l’organisation, confiez-nous cette tâche
-              et concentrez-vous sur l’essentiel.
-            </p>
-            <p>etudiant:Ambiance jeune et activités exclusives</p>
-            <div class="voyage-meta">
-              <span class="prix">À partir de 1200 €</span>
-              <span class="duree">Durée : 5 jours</span>
-            </div>
-            <a href="reservation.html" class="btn">Réserver</a>
-          </div>
-        </article>
-        <article class="voyage-card">
-          <img
-            src="images/bali.jpg"
-            alt="Paysage de Bali"
-            class="voyage-image"
-          />
-          <div class="voyage-info bg-gray-100">
-            <h2>Bali, Indonésie</h2>
-            <p>
-              Plages paradisiaques, temples sacrés et rizières en terrasses —
-              Bali est la destination idéale pour se détendre et explorer une
-              culture riche.
-            </p>
-            <ul class="profil-cible">
-              <li>Pour les amateurs de bien‑être et de yoga</li>
-              <li>Parfait pour des vacances en famille ou en couple</li>
-              <li>Idéal pour découvrir la culture balinaise</li>
-            </ul>
-            <h2>profil-cible</h2>
-            <p>
-              famille/amis:Voyager entre amis et famille à prix réduits : -20%
-              sur le prix du circuit par personne
-            </p>
-            <p>
-              entreprise/scolaire:Activités de cohésion d’équipe originales :
-              Pour motiver et ressouder vos collaborateurs, rien de tel que des
-              expériences inédites en dehors du cadre du bureau.
-            </p>
-            <p>
-              etudiant:Des tarifs étudiants imbattables :Viatopia propose des
-              tarifs spéciaux pour les jeunes tout au long de l’année, et en
-              particulier pendant les vacances d’été, période où les prix
-              grimpent habituellement.
-            </p>
-            <div class="voyage-meta">
-              <span class="prix">À partir de 1500 €</span>
-              <span class="duree">Durée : 7 jours</span>
-            </div>
-            <a href="reservation.html" class="btn">Réserver</a>
-          </div>
-        </article>
-        <article class="voyage-card">
-          <img
-            src="images/newyork.jpg"
-            alt="Skyline de New York"
-            class="voyage-image"
-          />
-          <div class="voyage-info bg-gray-100">
-            <h2>New York City, États‑Unis</h2>
-            <p>
-              Explorez la ville qui ne dort jamais : Times Square, Central Park,
-              Broadway et une scène culinaire sans fin vous y attendent.
-            </p>
-            <ul class="profil-cible">
-              <li>Pour les adeptes d’arts et de spectacles</li>
-              <li>Parfait pour les fans de shopping et de nightlife</li>
-              <li>Idéal pour découvrir un melting‑pot culturel</li>
-            </ul>
-            <h2>profil-cible</h2>
-            <p>
-              famille/amis::Le confort et la sécurité de votre famille sont
-              notre priorité. Nous proposons des hébergements familiaux
-              spacieux, confortables et bien équipés, à des prix adaptés aux
-              budgets des parents.
-            </p>
-            <p>
-              entreprise/scolaire:Nous avons l’expérience logistique pour
-              accueillir des groupes nombreux dans différentes villes ou pays,
-              et pour organiser des programmes complexes. Réservation des vols
-              et hôtels, salles de réunion équipées, reservation au restos…
-              notre équipe prend en charge chaque détail afin que votre voyage
-              professionnel se déroule sans le moindre souci.
-            </p>
-            <p>
-              etudiant:pourquoi nous proposons des activités et sorties conçues
-              pour les 18-26 ans qui ajoutent du fun et de la convivialité au
-              séjour. Au programme selon la destination : soirées festivales
-              locales, events culturels branchés, events intéressant (randonnée,
-              nuit de l’animation, changer histoire) .
-            </p>
-            <div class="voyage-meta">
-              <span class="prix">À partir de 1700 €</span>
-              <span class="duree">Durée : 6 jours</span>
-            </div>
-            <a href="reservation.html" class="btn">Réserver</a>
-          </div>
-        </article>
-      </section>
-    </main>
-    <footer class="footer bg-gray-900 text-gray-300">
-      <div class="footer-col">
-        <h2>Membres du projet</h2>
-        <p>Lamis Chaouch</p>
-        <p>Erien Charmely</p>
-        <p>Tianyi Hua</p>
-      </div>
-      <div class="footer-col">
-        <h3>Documentation</h3>
-        <ul>
-          <li><a href="rapport.docx">Rapport (docx)</a></li>
-          <li><a href="rapport.pdf">Rapport (PDF)</a></li>
+    <nav class="mt-4 p-2 rounded-lg w-full">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <ul class="flex space-x-7 flex justify-center text-lg">
+          <li>
+            <a href="index.html" class="hover:text-green-700 p-2 rounded-lg">Accueil</a>
+          </li>
+          <li>
+            <a href="voyages.html" class="hover:text-green-700 p-2 rounded-lg active">Voyages
+            </a>
+          </li>
+          <li>
+            <a href="reservation.html" class="hover:text-green-700 p-2 rounded-lg">Réservations
+            </a>
+          </li>
+          <li>
+            <a href="about.html" class="hover:text-green-700 p-2 rounded-lg">À propos</a>
+          </li>
+          <li>
+            <a href="contact.html" class="hover:text-green-700 p-2 rounded-lg">Contact</a>
+          </li>
         </ul>
       </div>
-      <div class="footer-col">
-        <h3>IUT</h3>
-        <a href="https://www.iut-orsay.universite-paris-saclay.fr/"
-          ><img src="images/iut.jpg" alt="logo du iut"
-        /></a>
-      </div>
-    </footer>
-  </body>
+    </nav>
+  </header>
+
+  <main class="main-content bg-gray-900">
+    <h1 class="text-gray-300 font-bold text-2xl">
+      Nos Destinations Populaires
+    </h1>
+    <section class="voyage-list">
+      <article class="voyage-card">
+        <img src="images/vue-de-paris.jpg" alt="Vue de Paris" class="voyage-image" />
+        <div class="voyage-info bg-gray-100">
+          <h2>Paris, France</h2>
+          <p>
+            Découvrez la Ville Lumière, avec ses monuments emblématiques comme
+            la Tour Eiffel, le Louvre et les charmants cafés des rues pavées.
+          </p>
+          <ul class="profil-cible">
+            <li>Pour les passionnés d’art et d’histoire</li>
+            <li>Idéal pour une escapade romantique</li>
+            <li>Parfait pour les gourmets et amateurs de vin</li>
+          </ul>
+          <h2>profil-cible</h2>
+          <p>famille/amis:Activités culturelles pour petits et grands</p>
+          <p>
+            entreprise/scolaire:Gagnez du temps : au lieu de mobiliser vos
+            ressources internes sur l’organisation, confiez-nous cette tâche
+            et concentrez-vous sur l’essentiel.
+          </p>
+          <p>etudiant:Ambiance jeune et activités exclusives</p>
+          <div class="voyage-meta">
+            <span class="prix">À partir de 1200 €</span>
+            <span class="duree">Durée : 5 jours</span>
+          </div>
+          <a href="reservation.html" class="btn">Réserver</a>
+        </div>
+      </article>
+      <article class="voyage-card">
+        <img src="images/bali.jpg" alt="Paysage de Bali" class="voyage-image" />
+        <div class="voyage-info bg-gray-100">
+          <h2>Bali, Indonésie</h2>
+          <p>
+            Plages paradisiaques, temples sacrés et rizières en terrasses —
+            Bali est la destination idéale pour se détendre et explorer une
+            culture riche.
+          </p>
+          <ul class="profil-cible">
+            <li>Pour les amateurs de bien‑être et de yoga</li>
+            <li>Parfait pour des vacances en famille ou en couple</li>
+            <li>Idéal pour découvrir la culture balinaise</li>
+          </ul>
+          <h2>profil-cible</h2>
+          <p>
+            famille/amis:Voyager entre amis et famille à prix réduits : -20%
+            sur le prix du circuit par personne
+          </p>
+          <p>
+            entreprise/scolaire:Activités de cohésion d’équipe originales :
+            Pour motiver et ressouder vos collaborateurs, rien de tel que des
+            expériences inédites en dehors du cadre du bureau.
+          </p>
+          <p>
+            etudiant:Des tarifs étudiants imbattables :Viatopia propose des
+            tarifs spéciaux pour les jeunes tout au long de l’année, et en
+            particulier pendant les vacances d’été, période où les prix
+            grimpent habituellement.
+          </p>
+          <div class="voyage-meta">
+            <span class="prix">À partir de 1500 €</span>
+            <span class="duree">Durée : 7 jours</span>
+          </div>
+          <a href="reservation.html" class="btn">Réserver</a>
+        </div>
+      </article>
+      <article class="voyage-card">
+        <img src="images/newyork.jpg" alt="Skyline de New York" class="voyage-image" />
+        <div class="voyage-info bg-gray-100">
+          <h2>New York City, États‑Unis</h2>
+          <p>
+            Explorez la ville qui ne dort jamais : Times Square, Central Park,
+            Broadway et une scène culinaire sans fin vous y attendent.
+          </p>
+          <ul class="profil-cible">
+            <li>Pour les adeptes d’arts et de spectacles</li>
+            <li>Parfait pour les fans de shopping et de nightlife</li>
+            <li>Idéal pour découvrir un melting‑pot culturel</li>
+          </ul>
+          <h2>profil-cible</h2>
+          <p>
+            famille/amis::Le confort et la sécurité de votre famille sont
+            notre priorité. Nous proposons des hébergements familiaux
+            spacieux, confortables et bien équipés, à des prix adaptés aux
+            budgets des parents.
+          </p>
+          <p>
+            entreprise/scolaire:Nous avons l’expérience logistique pour
+            accueillir des groupes nombreux dans différentes villes ou pays,
+            et pour organiser des programmes complexes. Réservation des vols
+            et hôtels, salles de réunion équipées, reservation au restos…
+            notre équipe prend en charge chaque détail afin que votre voyage
+            professionnel se déroule sans le moindre souci.
+          </p>
+          <p>
+            etudiant:pourquoi nous proposons des activités et sorties conçues
+            pour les 18-26 ans qui ajoutent du fun et de la convivialité au
+            séjour. Au programme selon la destination : soirées festivales
+            locales, events culturels branchés, events intéressant (randonnée,
+            nuit de l’animation, changer histoire) .
+          </p>
+          <div class="voyage-meta">
+            <span class="prix">À partir de 1700 €</span>
+            <span class="duree">Durée : 6 jours</span>
+          </div>
+          <a href="reservation.html" class="btn">Réserver</a>
+        </div>
+      </article>
+    </section>
+  </main>
+  <footer class="footer bg-gray-900 text-gray-300">
+    <div class="footer-col">
+      <h2>Membres du projet</h2>
+      <p>Lamis Chaouch</p>
+      <p>Erien Charmely</p>
+      <p>Tianyi Hua</p>
+    </div>
+    <div class="footer-col">
+      <h3>Documentation</h3>
+      <ul>
+        <li><a
+            href="https://www.canva.com/design/DAG488Xot70/mlKJ8HLi9PB-KDb9zL8ZLQ/edit?utm_content=DAG488Xot70&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+            target="_blank">Présentation
+            Canva</a></li>
+        <li><a href="pdf/Rapport-projet-web.pdf" target="_blank">Rapport (PDF)</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h3>IUT</h3>
+      <a href="https://www.iut-orsay.universite-paris-saclay.fr/"><img src="images/iut.jpg" alt="logo du iut" /></a>
+    </div>
+  </footer>
+</body>
+
 </html>

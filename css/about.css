@@ -2,27 +2,22 @@
 
 @import url("global.css");
 
-main {
+main{
   padding: 2rem;
   margin: 0 auto;
-  /* background-image: url("../images/viatopia-logo-without-background.png");
-  background-repeat: no-repeat;
-  background-size: 400px;
-  background-position: center; */
 }
 
-main section {
-  flex: 1;
-  min-width: 45%;
-  min-height: 300px;
+main section{
   display: flex;
+  flex: 1;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  column-gap: 15em;
+  justify-content: center;
+  column-gap: 30px;
 }
 
-main aside {
+main aside{
   width: 400px;
   height: 200px;
   margin: auto;
@@ -30,18 +25,20 @@ main aside {
   justify-content: center;
 }
 
-main aside img {
+main section aside img{
   flex: 1;
   object-fit: cover;
 }
 
-main section article {
+main section article{
   flex: 1;
-  min-width: 35%;
+  min-width: 500px;
   min-height: 300px;
+  max-width: 600px;
+  max-height: 400px;
 }
 
-main section h2 {
+main section h2{
   text-align: center;
   margin-bottom: 10px;
 }

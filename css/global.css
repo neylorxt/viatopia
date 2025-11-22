@@ -4,7 +4,7 @@
 :root {
   --couleur-primaire: #004225; /* vert foncé par défaut */
   --couleur-secondaire: rgb(184, 134, 11); /* gris clair */
-  --couleur-accent: #d4af37; /* doré pour les boutons */
+  --couleur-accent: rgb(129, 93, 2); /* doré pour les boutons */
   --texte-fonce: #222;
   --texte-clair: #fdfdfd;
 }
@@ -30,10 +30,6 @@ header {
 nav a:hover {
   color: var(--couleur-secondaire);
 }
-
-/* #frameHeader {
-  width: 100%;
-} */
 
 header img {
   height: 80px;
@@ -78,7 +74,7 @@ main a {
 
 .footer-col h3 {
   margin-bottom: 0.5rem;
-  color: var(--couleur-accent);
+  color: var(--couleur-secondaire);
 }
 
 .footer-col ul {
@@ -101,4 +97,12 @@ main a {
 .iut-logo {
   width: 80px;
   height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
 }
