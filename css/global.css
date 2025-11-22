@@ -9,6 +9,17 @@
   --texte-clair: #fdfdfd;
 }
 
+.bg-primaire {
+  background-color: var(--couleur-primaire);
+}
+.bg-secondaire {
+  background-color: var(--couleur-secondaire);
+}
+
+button.bg-secondaire:hover {
+  background-color: var(--couleur-accent);
+}
+
 a.active {
   color: var(--couleur-secondaire);
 }

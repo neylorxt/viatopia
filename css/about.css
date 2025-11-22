@@ -26,11 +26,14 @@ main aside {
   width: 400px;
   height: 200px;
   margin: auto;
+  display: flex;
+  justify-content: center;
 }
 
-/* main aside img {
-  border: 1px solid white;
-} */
+main aside img {
+  flex: 1;
+  object-fit: cover;
+}
 
 main section article {
   flex: 1;
