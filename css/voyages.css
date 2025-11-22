@@ -73,7 +73,7 @@
   text-align: center;
   margin-top: 1rem;
   padding: 0.6rem 1rem;
-  background-color: var(--couleur-accent);
+  background-color: var(--couleur-secondaire);
   color: var(--texte-fonce);
   text-decoration: none;
   border-radius: 4px;
@@ -81,7 +81,7 @@
 }
 
 .btn:hover {
-  background-color: var(--couleur-primaire);
+  background-color: var(--couleur-accent);
   color: var(--texte-clair);
 }
 
