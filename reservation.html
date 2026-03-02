@@ -3,6 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="images/viatopia-logo.png"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="css/reservation.css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Viatopia</title>
@@ -100,7 +105,6 @@
               <option value="etudiant">Valentina Bianchi</option>
               <option value="famille">Lamis Chaouch</option>
               <option value="entreprise">Tiany Hua</option>
-              <option value="etudiant">Lorenzo Werner</option>
               <option value="famille">Matteo Miller ( Entreprise )</option>
             </select>
           </div>
@@ -282,23 +286,58 @@
       </div>
 
       <!--VIATOPIA MAP-->
-      <div class="viatopia-map">
-        <iframe
-          name="viatopia-map"
-          title="viatopia-map"
-          src="https://www.openstreetmap.org/export/embed.html?bbox=7.643316686153413%2C45.10780810425851%2C7.645548284053803%2C45.10916918102813&amp;layer=mapnik"
-        ></iframe>
-        <a
-          href="https://www.openstreetmap.org/?#map=19/45.108489/7.644432"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="text-gray-300 bg-red-600 p-2 rounded-md mt-2 inline-block"
-          >Afficher une carte plus grande</a
-        >
-        <address class="mt-2 text-gray-300">
-          Corso Gaetano Scirea, 50, 10151 Torino TO, Italie
-        </address>
-      </div>
+      <section class="guide-images-section">
+        <div class="guide-section">
+          <h3 class="text-gray-300 text-center text-2xl mb-5">Guide</h3>
+          <div class="guide-images">
+            <div>
+              <img
+                src="https://png.pngtree.com/png-vector/20250608/ourlarge/pngtree-profile-of-korean-woman-with-smooth-skin-and-long-hair-png-image_16498318.png"
+                alt=""
+              />
+              <p>Valentina Bianchi</p>
+            </div>
+            <div>
+              <img
+                src="https://png.pngtree.com/png-clipart/20220922/original/pngtree-good-girl-character-for-social-media-profile-photos-png-image_8626974.png"
+                alt=""
+              />
+              <p>Lamis Chaouch</p>
+            </div>
+            <div>
+              <img
+                src="https://contents-cdn.viewus.co.kr/image/2024/01/CP-2023-0041/image-89e9fa19-ae28-4705-87be-c475c4bc9433.png"
+                alt=""
+              />
+              <p>Tianyi Hua</p>
+            </div>
+            <div>
+              <img
+                src="https://www.pngplay.com/wp-content/uploads/12/User-Avatar-Profile-PNG-Photos.png"
+                alt=""
+              />
+              <p>Lorenzo Werner</p>
+            </div>
+          </div>
+        </div>
+        <div class="viatopia-map">
+          <iframe
+            name="viatopia-map"
+            title="viatopia-map"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=7.643316686153413%2C45.10780810425851%2C7.645548284053803%2C45.10916918102813&amp;layer=mapnik"
+          ></iframe>
+          <a
+            href="https://www.openstreetmap.org/?#map=19/45.108489/7.644432"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-gray-300 bg-red-600 p-2 rounded-md mt-2 inline-block"
+            >Afficher une carte plus grande</a
+          >
+          <address class="mt-2 text-gray-300">
+            Corso Gaetano Scirea, 50, 10151 Torino TO, Italie
+          </address>
+        </div>
+      </section>
     </main>
 
     <footer class="footer bg-gray-900 text-gray-300">
